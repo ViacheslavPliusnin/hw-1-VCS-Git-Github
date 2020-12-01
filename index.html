@@ -5,10 +5,54 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>HW #1 "VCS (Git, Github)"</title>
+    <style>
+        body {
+            font-family: "Century Gothic"
+        }
+        h1 {
+            font-size: 35px;
+            text-align: center;
+        }
+        h2 {
+            font-size: 20px;
+            text-align: center;
+        }
+        h3 {
+            font-size: 25px;
+            margin-left: 10px;
+        }
+        ul {
+            line-height: 2em;
+        }
+    </style>
 </head>
 <body>
-    Hello guys!
-    Have a nice day!
+<h1>
+    Шпаргалка з командами Git
+</h1>
+<h2>
+    HW #1 "VCS (Git, Github)" - <a href="https://github.com/ViacheslavPliusnin">Viacheslav Pliusnin</a>
+</h2>
+<h3>
+    Base
+</h3>
+<ul>
+    <li><strong>git config --global user.name "[ім'я]"</strong> - встановлює ім'я для ідентифікації автора;</li>
+    <li><strong>git config --global user.email "[електронна адреса]"</strong> - встановлює електронну адресу для ідентифікації автора;</li>
+    <li><strong>git init</strong> - ініціює пустий репозиторій в поточній директорії;</li>
+    <li><strong>git status</strong> - показує стан файлів в робочій директорії;</li>
+    <li><strong>git add</strong> - додає файли в коміт. Використовується "<strong>.</strong>" або "<strong>*</strong>" для додавання усіх файлів.
+        Якщо додається один файл - вказується його ім'я та розширення;</li>
+    <li><strong>git commit</strong> - зберігає поточний зліпок проекту. Зазвичай вказується з аргументом <strong><em>-m "[коментар з описом змін]"</em></strong>;</li>
+    <li><strong>git log</strong> - використовується для перегляду історії комітів поточної гілки проекту;</li>
+    <li><strong>git checkout</strong> - використовується для зміни поточної гілки або для відновлення історичної версії файлу;</li>
+    <li><strong>git branch</strong> - команда використовується для перегляду, створення або видалення гілок;</li>
+    <li><strong>git push</strong> - відправляємо в репозиторій наші зліпки проекту;</li>
+    <li><strong>git pull</strong> - команда для отримання змін з репозиторію;</li>
+    <li><strong>git megre</strong> - відповідає за об'єднання гілок проекту;</li>
+    <li><strong>git clone</strong> - копіює репозиторій в нову директорію;</li>
+    <p><strong>.gitignore</strong> - файл потрібний для того, щоб сховати файли і папки від системи контролю версій Git.</p>
+</ul>
 </body>
 </html>
